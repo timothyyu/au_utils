@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/gto76/python-cheatsheet.git
+	branch = master
+	commit = f74e5ccc7ffc30d37d517f9715ee758e859c528d
+	parent = d523333e05e3b8bbcabcfe3eff959db634668783
+	method = merge
+	cmdver = 0.4.0

@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/ArcturusB/papy
+	branch = master
+	commit = 87b738337033da5ec5340e33b5abc7d52e76fc65
+	parent = 4e4de46d5223da282e80718f2e888a67e471a0de
+	method = merge
+	cmdver = 0.4.0

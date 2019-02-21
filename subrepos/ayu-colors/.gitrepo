@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/ayu-theme/ayu-colors
+	branch = master
+	commit = bd60ab9d795a22494de5ea4998df2b929c4cad51
+	parent = eddc0a8cf65114b9d4c76524c2b376858e98da20
+	method = merge
+	cmdver = 0.4.0
