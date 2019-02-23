@@ -1,5 +1,8 @@
 # Shell
 
+## Launch explorer/open explorer window in current directory
+`explorer.exe .`
+
 ## Create .gitignore file from shell/git bash
 `touch .gitignore`
 
@@ -34,7 +37,13 @@
 
 `ESC` -> `R` -> `Y` - Make cell Raw, Then make it a code cell again (for quick output cell clear)
 
+`Y` Code cell 
+
+`M` Markdown cell
+
 ## Command Mode (Blue)
+
+`P` - Command palette open
 
 `H`- Show all Keyboard shortcuts
 
@@ -42,7 +51,7 @@
 
 `Shift + Enter` run current cell + insert new cell below, stay in command mode
 
-`CTRL + Enter` run current cell 
+`CTRL + Enter` run current cell/run selected cells 
 
 `Alt + Enter` run current cell + insert new cell bellow, enter edit mode
 
@@ -60,8 +69,19 @@
 
 `B` - insert new cell below current cell
 
+`Shift + up/down` - extend selected cells above/below
+
+`Shift + V` - paste cells above current cell
+
 ## Edit Mode (Green)
 
 `Ctrl + /` while selecting lines/cells - Block comment/uncomment
 
+`Click + Drag while holding down Alt` - Multicursor 
+
+`Ctrl + [` OR `] ` - indent/dedent
+
+`CTRL + TAB` - documentation for method of object (if available - may be available with multiple TAB levels)
+
+Add semicolon (;) to end of function to suppress output
 `Click + Drag while holding down Alt` - Multicursor 
