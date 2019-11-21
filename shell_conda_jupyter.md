@@ -33,6 +33,13 @@
 `pip freeze > requirements.txt`
 `pip install -r requirements.txt`
 
+## Update Conda and Anaconda from older versions
+
+Note: Make sure terminal has administrative rights on windows/sudo on linux before running the following commands:
+
+`conda update conda`
+`conda update anaconda`
+
 # Jupyter Notebook
 
 `ESC` -> `R` -> `Y` - Make cell Raw, Then make it a code cell again (for quick output cell clear)
