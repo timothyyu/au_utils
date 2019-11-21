@@ -11,3 +11,13 @@
 `git reset --hard HEAD~1` reset local merge that hasn't been pushed to any remote / or reset to hash of commit before merge
 
 `git merge --no-ff` no fastforward when merging (even when possible), force merge commit creation
+
+
+
+## Git LF
+`git lfs status`
+
+`git lfs push --dry-run <branch> `
+
+`!echo 'data/raw_data_external/coinbaseUSD_11212019.csv' >> .gitignore`
+
