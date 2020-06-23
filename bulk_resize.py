@@ -1,3 +1,5 @@
+# https://kishstats.com/python/2018/04/27/bulk-image-resizing-python.html
+
 import os
 import argparse
 from PIL import Image
